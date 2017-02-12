@@ -1,22 +1,7 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1599px) {
-	body{
-		padding:0;
-		margin:0;
-	}
-	header{
-		margin-left:0px;
-	}
-	#content{
-		margin-left:0px;
-		padding-left:65px;
-	}
-	footer{
-		padding-left:0px;
-	}
-}
+
 @media only screen and (max-width : 1200px) {
 	body{
 		padding:0;
@@ -104,15 +89,14 @@
 		display:block;
 		margin-top:47px;
 		margin-right:0px;
-		list-style: none;
-		
+		list-style: none;		
 	}
 	
 	.menu li {		
 		margin:0;
 		background-color:#d6deed;
-    	display: block;
-    	text-align: center;
+    		display: block;
+    		text-align: center;
 		border:none;
 	}
 	.menu li a {
@@ -120,7 +104,7 @@
 		padding:10px;
 		text-align: center;
 		color:#206da7;
-    	display: block;
+    		display: block;
 		font-weight:bold;
 	}
 	.menu li:nth-child(even),.menu li:nth-child(odd){
@@ -281,7 +265,22 @@
 	.feedback{
 		margin-top:-90px;
 	}
-
+@media only screen and (max-width : 1599px) {
+	body{
+		padding:0;
+		margin:0;
+	}
+	header{
+		margin-left:0px;
+	}
+	#content{
+		margin-left:0px;
+		padding-left:65px;
+	}
+	footer{
+		padding-left:0px;
+	}
+}
 
 /*==========  Mobile First Method  ==========*/
 
