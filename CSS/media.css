@@ -1,0 +1,268 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.team_item{
+		margin-bottom: 30px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	body{
+		padding: 0;
+		margin-top:55px;
+		margin-left:-15px;
+		width:100%;
+	}
+	nav{
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:999;
+	}	
+	.menu_btn{
+		height: 50px;
+		width: 102px;
+		border-radius: 0;
+		background-color: #d6deed;
+		color: #fff;
+		right:0px;
+		margin-right:0px;
+		top:-10px;
+		position:fixed;
+	}	
+	.menu{		
+		width:200px;
+		margin-top:45px;
+		margin-left:105px;
+		list-style: none;
+	}
+	.menu li {
+		padding:10px;
+		margin:0;
+		background-color:#d6deed;
+    	display: block;
+    	text-align: center;
+	}
+	.menu li a {
+		text-align: left;
+		color:#206da7;
+    	display: block;
+		padding-right:10px;
+		font-weight:bold;
+	}
+	.menu li:nth-child(8), .menu li:nth-child(9){
+		display:block;
+		margin:0;
+		border-left:5px solid #ff0000;
+	}
+	.menu li:nth-child(8) a, .menu li:nth-child(9) a{
+		margin:0;
+		padding:5px 0;
+	}
+	#f-registration{
+		display:none;
+	}
+	.menu li:hover{
+		background-color:#17ccc5;
+	}
+	.logo{
+		position:fixed;
+		top:-4px;
+		background-color: #d6deed;
+	}	
+	.choice-menu{
+		display:none;
+	}
+	#content{
+		margin:0;
+		padding:0;
+		background:#fff;
+	}
+	.contact-tab, .feedback{
+		border:transparent;
+	}
+	.send-text{
+		margin-left:50px;
+	}
+	.top-line{
+		margin-right:-30px;
+	}
+	.email-input{
+		margin-left:0px;
+	}	
+	.footer-left, .footer-menu, .footer-right{		
+		text-align:center;
+	}
+	.footer-menu{
+		padding:5px 0px;
+	}
+	.footer-right{
+		padding:0;
+		margin:0;
+	}
+	.feedback{
+		margin-top:-90px;
+	}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	body{
+		padding: 0;
+		margin-top:55px;
+		margin-left:-15px;
+		width:100%;
+	}
+	nav{
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:999;
+	}	
+	.menu_btn{
+		height: 50px;
+		width: 102px;
+		border-radius: 0;
+		background-color: #d6deed;
+		color: #fff;
+		right:0px;
+		margin-right:0px;
+		top:-10px;
+		position:fixed;
+	}	
+	.menu{		
+		width:200px;
+		margin-top:45px;
+		margin-left:105px;
+		list-style: none;
+	}
+	.menu li {
+		padding:10px;
+		margin:0;
+		background-color:#d6deed;
+    	display: block;
+    	text-align: center;
+	}
+	.menu li a {
+		text-align: left;
+		color:#206da7;
+    	display: block;
+		padding-right:10px;
+		font-weight:bold;
+	}
+	.menu li:nth-child(8), .menu li:nth-child(9){
+		display:block;
+		margin:0;
+		border-left:5px solid #ff0000;
+	}
+	.menu li:nth-child(8) a, .menu li:nth-child(9) a{
+		margin:0;
+		padding:5px 0;
+	}
+	#f-registration{
+		display:none;
+	}
+	.menu li:hover{
+		background-color:#17ccc5;
+	}
+	.logo{
+		position:fixed;
+		top:-4px;
+		background-color: #d6deed;
+	}	
+	.choice-menu{
+		display:none;
+	}
+	#content{
+		margin:0;
+		padding:0;
+		background:#fff;
+	}
+	.contact-tab, .feedback{
+		border:transparent;
+	}
+	.send-text{
+		margin-left:50px;
+	}
+	.top-line{
+		margin-right:-30px;
+	}
+	.email-input{
+		margin-left:0px;
+	}	
+	.footer-left, .footer-menu, .footer-right{		
+		text-align:center;
+	}
+	.footer-menu{
+		padding:5px 0px;
+	}
+	.footer-right{
+		padding:0;
+		margin:0;
+	}
+	.feedback{
+		margin-top:-90px;
+	}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
