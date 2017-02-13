@@ -3,7 +3,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: "Exo2", sans-serif;
-    width : 1600px;
+    width : 100%;
 }
 
 /*HEADER*/
@@ -266,3 +266,4 @@ footer{
 .fa-facebook, .fa-twitter, .fa-youtube-play{
     padding-left:17px;
 }
+
